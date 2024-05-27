@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* START HEADER CSS */
+header{
+    padding: 0 156px 0 81px;
+}
+.header-container{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+height: 100px;
+}
+.header-navbar{
+    display: flex;
+    column-gap: 7px;
+}
+.header-list{
+    list-style: none;
+}
+.header-link{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 125%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #83888f;
+}
+.header-link:active{
+    color: black;
+}
+.btn{
+    width: 217px;
+    height: 56px;   
+    border-radius: 6px;
+    font-weight: 900;
+font-size: 18px;
+line-height: 139%;
+text-align: center;
+color: #fefcf7;
+border: 1px solid #0e8784;
+    background: #0e8784;
+
+}
+.btn:active{
+    background: #66d2cf;
+    border: 1px solid #66d2cf;
+}
+/* END HEADER CSS */
+/* START MAIN CSS */
+main{
+    padding: 0 140px 0 81px;
+}
+/* START FIRST SECTION */
+/* END FIRST SECTION */
+.first-section-container{
+    display: flex;
+    padding: 0 0 0 85px;
+    flex-direction: column;
+    justify-content: center;
+    height: 450px;
+    background-image: url("../images/cofee.svg");
+    background-repeat: no-repeat;
+}
+.first-section-container-h1{
+    font-weight: 900;
+font-size: 40px;
+line-height: 120%;
+color: #fefcf7;
+}
+.first-section-container-p{
+    width: 445px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+color: #fefcf7;
+}
+.second-section-container{
+    margin-top: 168px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.letter-part{
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+.letter-part-h2{
+    font-weight: 900;
+font-size: 40px;
+line-height: 120%;
+color: #333d4b;
+}
+.letter-part-p{
+    width: 540px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+color: rgb(51, 61, 75, 0.8);
+}
+.third-section-container{
+    margin-top: 256px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 6px;
+    background-color: #333D4B;
+}
+.letters-h2{
+    margin-bottom: 32px;
+    font-weight: 900;
+font-size: 40px;
+line-height: 120%;
+color: #fefcf7;
+}
+.letters-p{
+    width: 540px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+color: rgb(254, 252, 247, 0.8);
+}
+.fourth-section-container{
+    padding: 0 85px;
+}
+.fourth-section-container-h3{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 133%;
+    color: #83888f;
+    margin-bottom: 72px;
+    margin-top: 168px;
+}
+.img{
+    position: relative;
+    bottom: 88px;
+}
+.list{
+    display: flex;
+    column-gap: 95px;
+    list-style: none;
+}
+.item{
+    width: 285px;
+}
+.p-letter{
+    display: flex;
+    flex-direction: column;
+}
+/* END MAIN CSS */
+/* START FOOTER CSS */
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    height: 120px;
+    padding: 0 86px;
+    background-color: #2c343e;
+}
+.footer-navbar{
+    display: flex;
+    column-gap: 32px;
+}
+.footer-list{
+    list-style: none;
+}
+.footer-link{
+    text-decoration: none;
+    font-weight: 700;
+font-size: 12px;
+line-height: 125%;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+color: #83888f;
+}
+.footer-link:active{
+    font-weight: 700;
+font-size: 12px;
+line-height: 125%;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+color: #fefcf7;
+}
+.icon{
+    display: flex;
+    column-gap: 19px;
+}
+i{
+    color: white;
+    font-size: 24px;
+}
+i:active{
+    color: #fdd6ba;
+}
+/* END FOOTER CSS */
